@@ -44,7 +44,7 @@ in_class = '<put class here>'
 #find the button to view more comments then click.
 more_comments = browser.find_element_by_partial_link_text('more comments').click()
 #for loop to loop through the process of clicking the view more comments button for every available page for comment, in this case 450.
-for see_more in range(4):
+for see_more in range(450):
     more_comments = browser.find_element_by_partial_link_text('more comments')
     for comments in browser.find_elements_by_class_name(in_class):
         with open('mwebantu_scraped_comments.txt', 'a') as f:
