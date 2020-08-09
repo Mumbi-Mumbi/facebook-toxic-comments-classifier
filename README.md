@@ -1,4 +1,4 @@
-# facebook-toxic-comments-classifier
+# toxicity-classifier-for-zambian-facebook-comments
 ## **Introduction** <br>
 <p align="justify">
 The goal of this project is to create a classifier that can predict the toxicity of Facebook comments on Zambian pages. The code was made to be used for general purpose, so it can be applied in whatever topic your project is in as long as it is text related and using facebook comments.
