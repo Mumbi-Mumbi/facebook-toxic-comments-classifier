@@ -1,3 +1,5 @@
+"""To download selenium chromedriver compatible with your current Google Chrome browser, goto https://chromedriver.chromium.org/downloads"""
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
